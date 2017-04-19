@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2017, 3:38:48 PM
+    Author     : cleteci
+*/
+.body{
+    background-color: white;
+    color: #1b4a67;
+}
+
+
+.who-we-are{
+    color: #1b4a67;
+} 
+
+.what-we-do{
+    background-color: #bcd5e6;
+    color: #1b4a67;
+}
+
+.what-we-do .thumbnail .caption{    
+    color: #1b4a67;
+}
+
+.contact-us{
+    background-image: url("contact-us-background.png");
+    color: white;
+}
