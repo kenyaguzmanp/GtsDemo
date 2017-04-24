@@ -13,6 +13,14 @@ and open the template in the editor.
     font-family: 'Allerta', 'Droid Sans';
 }
 
+.navigation-bar{
+    background-color: white;
+}
+
+.container-fluid{
+    background-color: #dee0d7;
+}
+
 
 .who-we-are{
     color: #1b4a67;
@@ -25,6 +33,16 @@ and open the template in the editor.
 
 .what-we-do .thumbnail .caption{    
     color: #1b4a67;
+}
+
+.wh-do{
+    width: 200px;
+}
+
+.thing{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
 }
 
 .contact-us{
