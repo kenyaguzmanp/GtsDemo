@@ -15,6 +15,11 @@ and open the template in the editor.
 
 .navigation-bar{
     background-color: white;
+    padding-left: 200px;
+}
+
+.nav>li>a{
+    padding: 10px 9px;
 }
 
 .container-fluid{
@@ -57,15 +62,31 @@ and open the template in the editor.
     color: #1b4a67;
     background-color: white;
 }
+.who-are{
+    background-color: white;
+    text-align: justify;
+    padding-left: 0px;
+}
+
+.wh-re-left .col-md-4{
+    padding-left: 0px;
+}
 
 .wh-re{
     width: 100%;
 }
+
+.separator{
+    background-color: white;
+    text-align: center;
+}
+
 /* ////////////WHAT WE DO SECTION///////////////// */
 
 .what-we-do{
     background-color: #bcd5e6;
     color: #1b4a67;
+    padding: 80px;
 }
 
 .what-we-do .thumbnail .caption{    
@@ -80,7 +101,7 @@ and open the template in the editor.
 
 
 .wh-do{
-    width: 200px;
+    width: 170px;
 }
 
 
@@ -107,4 +128,14 @@ and open the template in the editor.
 .contact-us{
     background-image: url("contact-us-background.png");
     color: white;
+    padding: 80px;
+}
+
+.thumbnail{
+    border-radius: 0px;
+}
+
+.news{
+    background-color: white;
+    padding: 80px;
 }
