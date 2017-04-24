@@ -24,7 +24,10 @@ and open the template in the editor.
 
 .who-we-are{
     color: #1b4a67;
-} 
+    background-color: white;
+}
+
+/* ////////////WHAT WE DO SECTION///////////////// */
 
 .what-we-do{
     background-color: #bcd5e6;
@@ -35,15 +38,37 @@ and open the template in the editor.
     color: #1b4a67;
 }
 
+
+.wh-do-row{
+    display: inline-block;
+    float: left;
+}
+
+
 .wh-do{
     width: 200px;
 }
+
 
 .thing{
     display: inline-block;
     float: left;
     margin-right: 20px;
 }
+
+.logo-wh-do{
+    display: block;
+    float: left;
+}
+
+.wh-do p{
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+
+/* ////////////END WHAT WE DO SECTION///////////////// */
+
 
 .contact-us{
     background-image: url("contact-us-background.png");
