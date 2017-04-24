@@ -21,12 +21,46 @@ and open the template in the editor.
     background-color: #dee0d7;
 }
 
+.main-content{
+    width: 941px;
+}
+
+/*
+.carousel-control{
+    background: none;
+} */
+
+.carousel-indicators{
+    display: none;
+}
+
+.right-control{
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 190px;
+}
+
+.left-control{
+    right: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 190px;
+}
+
 
 .who-we-are{
     color: #1b4a67;
     background-color: white;
 }
 
+.wh-re{
+    width: 100%;
+}
 /* ////////////WHAT WE DO SECTION///////////////// */
 
 .what-we-do{
