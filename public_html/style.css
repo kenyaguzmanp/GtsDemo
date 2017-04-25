@@ -186,3 +186,30 @@ h2{
     margin-bottom: 40px;
 }
 
+.contact-cont{
+    padding: 100px;
+    height: 360px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.contact-content{
+    width: 200px;
+    height: 300px;
+    font-weight: bold;
+}
+
+.contact-us h2{
+    text-align: center;
+}
+
+.contact-content p{
+    margin-left: 18px;
+}
+
+.contact-content h5{
+    width: 300px;
+    font-weight: bold;
+    
+}
