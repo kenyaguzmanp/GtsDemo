@@ -28,7 +28,8 @@ h2{
 }
 
 .nav>li>a{
-    padding: 10px 9px;
+    padding: 7px 7px;
+    color: #504944;
 }
 
 .main-logo{
@@ -41,9 +42,22 @@ h2{
     padding-top: 32px;
 }
 
+.dropdown-menu>li>a{
+    color: #504944;
+    font-size: 12px;
+}
+
+.social-net i{
+    font-size: 20px;
+    padding-top:0px;
+}
+
+
 
 .container-fluid{
     background-color: #dee0d7;
+   /* padding-left: 0px;
+    padding-right: 0px; */
 }
 
 .main-content{
@@ -68,6 +82,10 @@ h2{
     padding-top: 190px;
 }
 
+.right-control img{
+    padding-right: 10px;
+}
+
 .left-control{
     right: auto;
     left: 0;
@@ -77,6 +95,9 @@ h2{
     padding-top: 190px;
 }
 
+.left-control img{
+    padding-left: 10px;
+}
 
 .who-we-are{
     color: #1b4a67;
@@ -103,6 +124,10 @@ h2{
 
 .wh-re .container .wh-re-right col-md-8{
    padding-left: 50px;
+}
+
+.wh-re .col-md-8{
+    padding-left: 30px;
 }
 
 .separator{
@@ -156,7 +181,7 @@ h2{
 }
 
 .logo-wh-do img{
-    width: 120%;
+    width: 110%;
     margin-left: 30px;
 }
 
@@ -193,6 +218,15 @@ h2{
 
 .img-log{
     padding-right: 10px;
+}
+
+.separator #log-flag{
+    width:100%;
+}
+
+
+.separator #log-circles{
+    padding: 30px;
 }
 
 .news h2{
