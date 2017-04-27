@@ -7,257 +7,283 @@ and open the template in the editor.
     Created on : Apr 19, 2017, 3:38:48 PM
     Author     : cleteci
 */
-.body{
-    background-color: white;
-    color: #1b4a67;
-    font-family: 'Allerta', 'Droid Sans';
-}
+/* **************************************************************************************/
+ /*   For Mobile 320px */
+/*    ************************************************************************************* */
 
-h2{
-    text-transform: uppercase;
-    font-size: 30px;
-}
+@media only screen and (min-width: 320px) {}
 
+/* **************************************************************************************/
+ /*   For Mobile 480px */
+/*    ************************************************************************************* */
 
-.navigation-bar{
-    background-color: white;
-    padding-left: 200px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    font-size: 12px;
-}
+@media only screen and (min-width: 480px) {}
 
-.nav>li>a{
-    padding: 7px 7px;
-    color: #504944;
-}
+/* **************************************************************************************/
+/*   For DESKTOP
+/*    ************************************************************************************* */
+@media only screen and (min-width: 1280px) {
+    .body{
+        background-color: white;
+        color: #1b4a67;
+        font-family: 'Allerta', 'Droid Sans';
+    }
 
-.main-logo{
-    display: block;
-    float: left;
-    padding-right: 10px;
-}
-
-.navigation-bar ul.nav.nav-pills{
-    padding-top: 32px;
-}
-
-.dropdown-menu>li>a{
-    color: #504944;
-    font-size: 12px;
-}
-
-.social-net i{
-    font-size: 20px;
-    padding-top:0px;
-}
+    h2{
+        text-transform: uppercase;
+        font-size: 30px;
+    }
 
 
-
-.container-fluid{
-    background-color: #dee0d7;
-   /* padding-left: 0px;
-    padding-right: 0px; */
-}
-
-.main-content{
-    width: 941px;
-}
-
-/*
-.carousel-control{
-    background: none;
-} */
-
-.carousel-indicators{
-    display: none;
-}
-
-.right-control{
-    right: 0;
-    left: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding-top: 190px;
-}
-
-.right-control img{
-    padding-right: 10px;
-}
-
-.left-control{
-    right: auto;
-    left: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding-top: 190px;
-}
-
-.left-control img{
-    padding-left: 10px;
-}
-
-.who-we-are{
-    color: #1b4a67;
-    background-color: white;
-}
-.who-are{
-    background-color: white;
-    text-align: justify;
-    padding: 50px;
-}
-
-.wh-re-left .col-md-4{
-    padding-left: 0px;
-}
-
-.wh-re{
-    width: 100%;
-}
-
-.wh-re h2{
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-.wh-re .container .wh-re-right col-md-8{
-   padding-left: 50px;
-}
-
-.wh-re .col-md-8{
-    padding-left: 30px;
-}
-
-.separator{
-    background-color: white;
-    text-align: center;
-}
-
-
-/* ////////////WHAT WE DO SECTION///////////////// */
-
-.what-we-do{
-    background-color: #bcd5e6;
-    color: #1b4a67;
-    padding: 80px;
-    padding-bottom: 0px;
-}
-
-.what-we-do .thumbnail .caption{    
-    color: #1b4a67;
+    .navig{
+        background-color: white;
+        padding-left: 441px;
+        padding-right: 441px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
     
-}
-
-.what-we-do h2{
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
-
-
-.wh-do-row{
-    display: inline-block;
-    float: left;
-    padding-bottom: 30px;
-}
-
-
-.wh-do{
-    width: 175px;
-}
-
-
-.thing{
-    display: inline-block;
-    float: left;
-    margin-right: 20px;
-}
-
-.logo-wh-do{
-    display: block;
-    float: left;
     
-}
+    .navbar-nav{
+        padding-top: 34px;
+    } 
+    .navbar.navbar-default{
+        margin-bottom: 0px;
+    }
 
-.logo-wh-do img{
-    width: 110%;
-    margin-left: 30px;
-}
+    .nav>li>a{
+        padding: 7px 7px;
+        color: #504944;
+    }
 
-.wh-do p{
-    border-style: solid;
-    border-color: white;
-    border-width: thin;
-     font-size: 12px;
-}
+    .main-logo{
+        display: block;
+        float: left;
+        padding-right: 10px;
+    }
 
-.wh-do .caption h3 {
-    font-size: 12px;
-}
+    .navig ul.nav.nav-pills{
+        padding-top: 32px;
+    }
 
+    .dropdown-menu>li>a{
+        color: #504944;
+        font-size: 12px;
+    }
 
-/* ////////////END WHAT WE DO SECTION///////////////// */
-
-
-.contact-us{
-    background-image: url("contact-us-background.png");
-    color: white;
-    padding: 80px;
-}
-
-.thumbnail{
-    border-radius: 0px;
-}
-
-.news{
-    background-color: white;
-    padding: 80px;
-}
+    .social-net i{
+        font-size: 20px;
+        padding-top:0px;
+    }
 
 
-.img-log{
-    padding-right: 10px;
-}
 
-.separator #log-flag{
-    width:100%;
-}
+    .container-fluid{
+        background-color: #dee0d7;
+        /* padding-left: 0px;
+         padding-right: 0px; */
+    }
+
+    .main-content{
+        width: 941px;
+    }
+
+    /*
+    .carousel-control{
+        background: none;
+    } */
+
+    .carousel-indicators{
+        display: none;
+    }
+
+    .right-control{
+        right: 0;
+        left: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding-top: 190px;
+    }
+
+    .right-control img{
+        padding-right: 10px;
+    }
+
+    .left-control{
+        right: auto;
+        left: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        padding-top: 190px;
+    }
+
+    .left-control img{
+        padding-left: 10px;
+    }
+
+    .who-we-are{
+        color: #1b4a67;
+        background-color: white;
+    }
+    .who-are{
+        background-color: white;
+        text-align: justify;
+        padding: 50px;
+    }
+
+    .wh-re-left .col-md-4{
+        padding-left: 0px;
+    }
+
+    .wh-re{
+        width: 100%;
+    }
+
+    .wh-re h2{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .wh-re .container .wh-re-right col-md-8{
+        padding-left: 50px;
+    }
+
+    .wh-re .col-md-8{
+        padding-left: 30px;
+    }
+
+    .separator{
+        background-color: white;
+        text-align: center;
+    }
 
 
-.separator #log-circles{
-    padding: 30px;
-}
+    /* ////////////WHAT WE DO SECTION///////////////// */
 
-.news h2{
-    margin-top: 0px;
-    margin-bottom: 40px;
-}
+    .what-we-do{
+        background-color: #bcd5e6;
+        color: #1b4a67;
+        padding: 80px;
+        padding-bottom: 0px;
+    }
 
-.contact-cont{
-    padding: 100px;
-    height: 360px;
-    padding-right: 100px;
-    padding-top: 50px;
-    margin-left: 60px;
-}
+    .what-we-do .thumbnail .caption{    
+        color: #1b4a67;
 
-.contact-content{
-    width: 200px;
-    height: 300px;
-    font-weight: bold;
-}
+    }
 
-.contact-us h2{
-    text-align: center;
-}
+    .what-we-do h2{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
 
-.contact-content p{
-    margin-left: 18px;
-}
 
-.contact-content h5{
-    width: 300px;
-    font-weight: bold;
-    
+    .wh-do-row{
+        display: inline-block;
+        float: left;
+        padding-bottom: 30px;
+    }
+
+
+    .wh-do{
+        width: 175px;
+    }
+
+
+    .thing{
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .logo-wh-do{
+        display: block;
+        float: left;
+
+    }
+
+    .logo-wh-do img{
+        width: 110%;
+        margin-left: 30px;
+    }
+
+    .wh-do p{
+        border-style: solid;
+        border-color: white;
+        border-width: thin;
+        font-size: 12px;
+    }
+
+    .wh-do .caption h3 {
+        font-size: 12px;
+    }
+
+
+    /* ////////////END WHAT WE DO SECTION///////////////// */
+
+
+    .contact-us{
+        background-image: url("contact-us-background.png");
+        color: white;
+        padding: 80px;
+    }
+
+    .thumbnail{
+        border-radius: 0px;
+    }
+
+    .news{
+        background-color: white;
+        padding: 80px;
+    }
+
+
+    .img-log{
+        padding-right: 10px;
+    }
+
+    .separator #log-flag{
+        width:100%;
+    }
+
+
+    .separator #log-circles{
+        padding: 30px;
+    }
+
+    .news h2{
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .contact-cont{
+        padding: 100px;
+        height: 360px;
+        padding-right: 100px;
+        padding-top: 50px;
+        margin-left: 60px;
+    }
+
+    .contact-content{
+        width: 200px;
+        height: 300px;
+        font-weight: bold;
+    }
+
+    .contact-us h2{
+        text-align: center;
+    }
+
+    .contact-content p{
+        margin-left: 18px;
+    }
+
+    .contact-content h5{
+        width: 300px;
+        font-weight: bold;
+
+    }
 }
