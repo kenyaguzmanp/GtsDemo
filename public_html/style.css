@@ -115,6 +115,8 @@ nav .container-fluid{
     padding-left: 10px;
 }
 
+
+
 /* END CAROUSEL */
 
 #blue-bar img{
@@ -218,6 +220,33 @@ nav .container-fluid{
 
 .wh-do .caption h3 {
     font-size: 15px;
+}
+
+/* carousel what-we-d- devices */
+.right-control2{
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 100px;
+}
+
+.right-control2 img{
+    padding-right: 5px;
+}
+
+.left-control2{
+    right: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 100px;
+}
+
+.left-control2 img{
+    padding-left: 5px;
 }
 
 
