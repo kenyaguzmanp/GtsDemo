@@ -1,325 +1,351 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Apr 19, 2017, 3:38:48 PM
-    Author     : cleteci
-*/
 /* **************************************************************************************/
- /*   For Mobile 320px */
+/*   GENERAL */
 /*    ************************************************************************************* */
+.body{
+    background-color: white;
+    color: #1b4a67;
+    font-family: 'Allerta', 'Droid Sans';
+}
 
-@media only screen and (min-width: 320px) {}
 
-/* **************************************************************************************/
- /*   For Mobile 480px */
-/*    ************************************************************************************* */
 
-@media only screen and (min-width: 480px) {
-    .body{
-        background-color: white;
-        color: #1b4a67;
-        font-family: 'Allerta', 'Droid Sans';
-    }
 
-    h2, h3{
-        text-transform: uppercase;
-        font-size: 30px;
-    }
+h2, h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
 
 /* NAVUGATION */
-    .navig{
-        background-color: white;
-        /*
-        padding-right: 300px;
-        padding-left: 300px;
-        */
-        padding-bottom: 20px;
-        
-        padding-top: 34px;
-        text-transform: uppercase;
-        /*font-size: 12px; */
-    }
-    
-    /*
-    .navbar-nav{
-        padding-top: 34px;
-    } */ 
-    
-    .navbar.navbar-default{
-        margin-bottom: 0px;
-    } 
-    
-    .nav.navbar-nav{
-        float: right;
-        padding-top: 43px;
-    }
+.navig{
+    background-color: white;
+    padding-bottom: 20px;   
+    padding-top: 34px;
+    text-transform: uppercase;
+    /*font-size: 12px; */
+}
 
-    .nav>li>a{
-        padding: 7px 7px;
-        color: #504944;
-    }
 
-    .main-logo{
-        display: block;
-        float: left;
-        padding-right: 10px;
-    }
+#navcon{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
-    .navig ul.nav.nav-pills{
-        padding-top: 32px;
-    }
+.navbar.navbar-default{
+    margin-bottom: 0px;
+    background-color: white;
 
-    .dropdown-menu>li>a{
-        color: #504944;
-        /*font-size: 12px; */
-    }
+} 
 
-    .social-net i{
-        font-size: 20px;
-        padding-top:0px;
-    }
+.nav.navbar-nav{
+    float: right;
+    padding-top: 43px;
+}
+
+.nav>li>a{
+    padding: 7px 7px;
+    color: #504944;
+}
+
+.main-logo{
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+
+.navig ul.nav.nav-pills{
+    padding-top: 32px;
+}
+
+.dropdown-menu>li>a{
+    color: #504944;
+    /*font-size: 12px; */
+}
+
+.social-net i{
+    font-size: 20px;
+    padding-top:0px;
+}
+
+nav .container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 
 /* END NAVIGATION */
 
-    .container-fluid{
-        background-color: #dee0d7;
-        /* padding-left: 0px;
-         padding-right: 0px; */
-    }
+.container-fluid{
+    background-color: #dee0d7;
+    /* padding-left: 0px;
+     padding-right: 0px; */
+}
 
-    /*
-    .sections.container-fluid{
-        width: 1200px; 
-    } */
 
-    /*
-    .carousel-control{
-        background: none;
-    } */
+.sections.container-fluid{
+    width: 1200px;
+} 
 
-    /* CAROUSEL */
-    #myCarousel{
-        width: 100%;
-    }
-    
-    .carousel-inner img{
-        width: 100%;
-    }
-    
+/*
+.carousel-control{
+    background: none;
+} */
+
+/* CAROUSEL */
+/*
+#myCarousel{
+    width: 1200px;
+} */
+
+.carousel-inner img{
+    width: 100%;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.right-control{
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 266px;
+}
+
+.right-control img{
+    padding-right: 10px;
+}
+
+.left-control{
+    right: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 266px;
+}
+
+.left-control img{
+    padding-left: 10px;
+}
+
+/* END CAROUSEL */
+
+#blue-bar img{
+    width: 100%;
+}
+
+/* WHO-WE-ARE SECTION */
+.who-we-are{
+    color: #1b4a67;
+    background-color: white;
+}
+.who-are{
+    background-color: white;
+    text-align: justify;
+    padding: 50px;
+}
+
+.wh-re.container-fluid{
+    background-color: white;    
+}
+
+.wh-re-left .col-md-4{
+    padding-left: 0px;
+}
+
+.wh-re{
+    width: 100%;
+}
+
+.wh-re h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.wh-re .container .wh-re-right col-md-8{
+    padding-left: 50px;
+}
+
+.wh-re .col-md-8{
+    padding-left: 30px;
+}
+
+.separator{
+    background-color: white;
+    text-align: center;
+}
+
+
+/* ////////////WHAT WE DO SECTION///////////////// */
+
+.what-we-do{
+    background-color: #bcd5e6;
+    color: #1b4a67;
+    padding: 80px;
+    padding-bottom: 0px;
+}
+
+.what-we-do .thumbnail .caption{    
+    color: #1b4a67;
+
+}
+
+.what-we-do h2{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.wh-do-row{
+    display: inline-block;
+    float: left;
+    width: 1040px;
+    padding-bottom: 30px;
+}
+
+
+.wh-do{
+    width: 240px;
+}
+
+
+.thing{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.wh-do img{
+    width: 100%;
+}
+
+.logo-wh-do{
+    display: block;
+    float: left;
+
+}
+
+.logo-wh-do img{
+    width: 110%;
+    padding-left: 140px;
+}
+
+.wh-do p{
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    /*font-size: 12px;*/
+}
+
+.wh-do .caption h3 {
+    font-size: 15px;
+}
+
+
+/* ////////////END WHAT WE DO SECTION///////////////// */
+
+
+.contact-us{
+    background-image: url("contact-us-background.png");
+    color: white;
+    padding: 80px;
+}
+
+.thumbnail{
+    border-radius: 0px;
+}
+
+.news{
+    background-color: white;
+    padding: 80px;
+}
+
+
+.img-log{
+    padding-right: 10px;
+}
+
+.separator #log-flag{
+    width:100%;
+}
+
+
+.separator #log-circles{
+    padding: 30px;
+}
+
+.news h2{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.contact-cont{
+    padding: 100px;
+    height: 360px;
+    padding-right: 100px;
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.contact-content{
+    width: 200px;
+    height: 300px;
+    font-weight: bold;
+}
+
+.contact-us h2{
+    text-align: center;
+}
+
+.contact-content p{
+    margin-left: 18px;
+}
+
+.contact-content h5{
+    width: 300px;
+    font-weight: bold;
+
+}
+
+ body > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+/* **************************************************************************************/
+/*   For Mobile 480px */
+/*    ************************************************************************************* */
+
+@media only screen and (max-width: 480px) {
+
+/*
     .carousel-indicators{
         display: none;
     }
 
-    .right-control{
-        right: 0;
-        left: auto;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding-top: 266px;
-    }
-
-    .right-control img{
-        padding-right: 10px;
-    }
-
-    .left-control{
-        right: auto;
-        left: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding-top: 266px;
-    }
-
-    .left-control img{
-        padding-left: 10px;
-    }
-
-    /* END CAROUSEL */
-    
     #blue-bar img{
         display: none;
     }
-    
-    /* WHO-WE-ARE SECTION */
-    .who-we-are{
-        color: #1b4a67;
-        background-color: white;
-    }
-    .who-are{
-        background-color: white;
-        text-align: justify;
-        padding: 50px;
-    }
-    
-    .wh-re.container-fluid{
-        background-color: white;    
-    }
+
 
     #who-we-are-img{
         display: none;
     }
 
-    .wh-re{
-        width: 100%;
-    }
-
-    .wh-re h2{
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-
-    .wh-re .container .wh-re-right col-md-8{
-        padding-left: 50px;
-    }
-
-    .wh-re .col-md-8{
-        padding-left: 30px;
-    }
-
-    .separator{
-        background-color: white;
-        text-align: center;
-    }
-
-
-    /* ////////////WHAT WE DO SECTION///////////////// */
-
-    .what-we-do{
-        background-color: #bcd5e6;
-        color: #1b4a67;
-        padding: 80px;
-        padding-bottom: 0px;
-    }
-
-    .what-we-do .thumbnail .caption{    
-        color: #1b4a67;
-
-    }
-
-    .what-we-do h2{
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-
-
-    .wh-do-row{
-        display: inline-block;
-        float: left;
-        /*width: 1040px; */
-        padding-bottom: 30px;
-    }
-
-
-    .wh-do{
-        width: 240px;
-    }
-
-
-    .thing{
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-    }
-    
-    .wh-do img{
-        width: 100%;
-    }
-
-    .logo-wh-do{
-        display: block;
-        float: left;
-
-    }
 
     .logo-wh-do img{
         display: none;
     }
-    
+
     #log-circles{
         display: none;
-    }
+    }*/
 
-    .wh-do p{
-        border-style: solid;
-        border-color: white;
-        border-width: thin;
-        /*font-size: 12px;*/
-    }
-
-    .wh-do .caption h3 {
-         font-size: 15px;
-    }
-
-
-    /* ////////////END WHAT WE DO SECTION///////////////// */
-
-
-    .contact-us{
-        background-image: url("contact-us-background.png");
-        color: white;
-        padding: 80px;
-    }
-
-    .thumbnail{
-        border-radius: 0px;
-    }
-
-    .news{
-        background-color: white;
-        padding: 80px;
-    }
-
-
-    .img-log{
-        padding-right: 10px;
-    }
-
-    .separator #log-flag{
-        width:100%;
-    }
-
-
-    .separator #log-circles{
-        padding: 30px;
-    }
-
-    .news h2{
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-
-    .contact-cont{
-        padding: 100px;
-        height: 360px;
-        padding-right: 100px;
-        padding-top: 50px;
-        margin-left: 60px;
-    }
-
-    .contact-content{
-        width: 200px;
-        height: 300px;
-        font-weight: bold;
-    }
-
-    .contact-us h2{
-        text-align: center;
-    }
-
-    .contact-content p{
-        margin-left: 18px;
-    }
-
-    .contact-content h5{
-        width: 300px;
-        font-weight: bold;
-
-    }
 
 }
 
@@ -328,41 +354,32 @@ and open the template in the editor.
 /* **************************************************************************************/
 /*   For DESKTOP min 1280
 /*    ************************************************************************************* */
+/*
 @media only screen and (min-width: 1280px) {
-    .body{
-        background-color: white;
-        color: #1b4a67;
-        font-family: 'Allerta', 'Droid Sans';
-    }
 
-    h2, h3{
-        text-transform: uppercase;
-        font-size: 30px;
-    }
-
-/* NAVUGATION */
+     NAVUGATION 
     .navig{
         background-color: white;
-        
+
         padding-right: 300px;
         padding-left: 300px;
-        
+
         padding-bottom: 20px;
-        
+
         padding-top: 34px;
         text-transform: uppercase;
-        /*font-size: 12px; */
+        font-size: 12px; 
     }
+
     
-    /*
     .navbar-nav{
         padding-top: 34px;
-    } */ 
-    
+    }  
+
     .navbar.navbar-default{
         margin-bottom: 0px;
     } 
-    
+
     .nav.navbar-nav{
         float: right;
         padding-top: 43px;
@@ -385,7 +402,7 @@ and open the template in the editor.
 
     .dropdown-menu>li>a{
         color: #504944;
-        /*font-size: 12px; */
+        font-size: 12px; 
     }
 
     .social-net i{
@@ -393,128 +410,23 @@ and open the template in the editor.
         padding-top:0px;
     }
 
-/* END NAVIGATION */
-
-    .container-fluid{
-        background-color: #dee0d7;
-        /* padding-left: 0px;
-         padding-right: 0px; */
+    nav .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
-    
+
+     END NAVIGATION 
+
+
     .sections.container-fluid{
         width: 1200px;
     } 
 
-    /*
-    .carousel-control{
-        background: none;
-    } */
 
-    /* CAROUSEL */
+     CAROUSEL 
     #myCarousel{
         width: 1200px;
-    }
-    
-    .carousel-inner img{
-        width: 100%;
-    }
-    
-    .carousel-indicators{
-        display: none;
-    }
-
-    .right-control{
-        right: 0;
-        left: auto;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding-top: 266px;
-    }
-
-    .right-control img{
-        padding-right: 10px;
-    }
-
-    .left-control{
-        right: auto;
-        left: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding-top: 266px;
-    }
-
-    .left-control img{
-        padding-left: 10px;
-    }
-
-    /* END CAROUSEL */
-    
-    #blue-bar img{
-        width: 100%;
-    }
-    
-    /* WHO-WE-ARE SECTION */
-    .who-we-are{
-        color: #1b4a67;
-        background-color: white;
-    }
-    .who-are{
-        background-color: white;
-        text-align: justify;
-        padding: 50px;
-    }
-    
-    .wh-re.container-fluid{
-        background-color: white;    
-    }
-
-    .wh-re-left .col-md-4{
-        padding-left: 0px;
-    }
-
-    .wh-re{
-        width: 100%;
-    }
-
-    .wh-re h2{
-        margin-top: 0px;
-        margin-bottom: 10px;
-    }
-
-    .wh-re .container .wh-re-right col-md-8{
-        padding-left: 50px;
-    }
-
-    .wh-re .col-md-8{
-        padding-left: 30px;
-    }
-
-    .separator{
-        background-color: white;
-        text-align: center;
-    }
-
-
-    /* ////////////WHAT WE DO SECTION///////////////// */
-
-    .what-we-do{
-        background-color: #bcd5e6;
-        color: #1b4a67;
-        padding: 80px;
-        padding-bottom: 0px;
-    }
-
-    .what-we-do .thumbnail .caption{    
-        color: #1b4a67;
-
-    }
-
-    .what-we-do h2{
-        margin-top: 0px;
-        margin-bottom: 40px;
     }
 
 
@@ -525,108 +437,5 @@ and open the template in the editor.
         padding-bottom: 30px;
     }
 
-
-    .wh-do{
-        width: 240px;
-    }
-
-
-    .thing{
-        display: inline-block;
-        float: left;
-        margin-right: 20px;
-    }
-    
-    .wh-do img{
-        width: 100%;
-    }
-
-    .logo-wh-do{
-        display: block;
-        float: left;
-
-    }
-
-    .logo-wh-do img{
-        width: 110%;
-        padding-left: 140px;
-    }
-
-    .wh-do p{
-        border-style: solid;
-        border-color: white;
-        border-width: thin;
-        /*font-size: 12px;*/
-    }
-
-    .wh-do .caption h3 {
-         font-size: 15px;
-    }
-
-
-    /* ////////////END WHAT WE DO SECTION///////////////// */
-
-
-    .contact-us{
-        background-image: url("contact-us-background.png");
-        color: white;
-        padding: 80px;
-    }
-
-    .thumbnail{
-        border-radius: 0px;
-    }
-
-    .news{
-        background-color: white;
-        padding: 80px;
-    }
-
-
-    .img-log{
-        padding-right: 10px;
-    }
-
-    .separator #log-flag{
-        width:100%;
-    }
-
-
-    .separator #log-circles{
-        padding: 30px;
-    }
-
-    .news h2{
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-
-    .contact-cont{
-        padding: 100px;
-        height: 360px;
-        padding-right: 100px;
-        padding-top: 50px;
-        margin-left: 60px;
-    }
-
-    .contact-content{
-        width: 200px;
-        height: 300px;
-        font-weight: bold;
-    }
-
-    .contact-us h2{
-        text-align: center;
-    }
-
-    .contact-content p{
-        margin-left: 18px;
-    }
-
-    .contact-content h5{
-        width: 300px;
-        font-weight: bold;
-
-    }
 }
-
+*/
