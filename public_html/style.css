@@ -299,29 +299,9 @@ nav .container-fluid{
 
 @media only screen and (max-width: 480px) {
 
-/*
-    .carousel-indicators{
-        display: none;
+.navbar-toggle.collapsed{
+        float: left;
     }
-
-    #blue-bar img{
-        display: none;
-    }
-
-
-    #who-we-are-img{
-        display: none;
-    }
-
-
-    .logo-wh-do img{
-        display: none;
-    }
-
-    #log-circles{
-        display: none;
-    }*/
-
 
 }
 
