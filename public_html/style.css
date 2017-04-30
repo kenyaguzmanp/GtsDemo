@@ -7,6 +7,11 @@
     font-family: 'Allerta', 'Droid Sans';
 }
 
+#all-content{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 h2, h3{
     text-transform: uppercase;
     font-size: 30px;
@@ -268,6 +273,11 @@ nav .container-fluid{
     
 }
 
+.news.row h2{
+    padding-bottom: 40px;
+}
+
+
 
 .img-log{
     padding-right: 10px;
@@ -314,88 +324,22 @@ nav .container-fluid{
 /* **************************************************************************************/
 /*   For DESKTOP min 1280
 /*    ************************************************************************************* */
-/*
-@media only screen and (min-width: 1280px) {
 
-     NAVUGATION 
-    .navig{
-        background-color: white;
-
-        padding-right: 300px;
-        padding-left: 300px;
-
-        padding-bottom: 20px;
-
-        padding-top: 34px;
-        text-transform: uppercase;
-        font-size: 12px; 
-    }
-
-    
-    .navbar-nav{
-        padding-top: 34px;
-    }  
-
-    .navbar.navbar-default{
-        margin-bottom: 0px;
-    } 
-
-    .nav.navbar-nav{
-        float: right;
-        padding-top: 43px;
-    }
-
-    .nav>li>a{
-        padding: 7px 7px;
-        color: #504944;
-    }
-
-    .main-logo{
-        display: block;
-        float: left;
-        padding-right: 10px;
-    }
-
-    .navig ul.nav.nav-pills{
-        padding-top: 32px;
-    }
-
-    .dropdown-menu>li>a{
-        color: #504944;
-        font-size: 12px; 
-    }
-
-    .social-net i{
-        font-size: 20px;
-        padding-top:0px;
-    }
-
-    nav .container-fluid{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-
-     END NAVIGATION 
-
-
-    .sections.container-fluid{
-        width: 1200px;
-    } 
-
-
-     CAROUSEL 
-    #myCarousel{
-        width: 1200px;
-    }
-
-
-    .wh-do-row{
-        display: inline-block;
-        float: left;
-        width: 1040px;
-        padding-bottom: 30px;
-    }
-
+@media only screen and (min-width: 1200px) {
+.who-are.container-fluid{
+    padding: 50px 100px 50px 100px;
 }
-*/
+
+.what-we-do.container-fluid{
+    padding: 50px 60px 50px 100px;
+}
+
+.news.row{
+    padding: 50px 60px 50px 100px;
+}
+
+.contact-us.container-fluid{
+    padding: 50px 300px 50px 300px;
+}
+     
+}
