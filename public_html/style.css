@@ -302,6 +302,10 @@ nav .container-fluid{
 .navbar-toggle.collapsed{
         float: left;
     }
+    
+ .soc-resp .social-net a{
+        padding: 3px
+    }   
 
 }
 
