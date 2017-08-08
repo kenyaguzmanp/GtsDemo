@@ -311,11 +311,56 @@ nav .container-fluid{
 
 .navbar-toggle.collapsed{
         float: left;
+        margin-left: 15px;
     }
     
  .soc-resp .social-net a{
         padding: 3px
-    }   
+    } 
+    
+    .navig{
+     padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    .main-logo img{
+      margin-left: 48%;
+     margin-right: 30%;
+    }
+    
+    .soc-resp{
+     display: inline-block;
+    float: right;
+        margin-right: 15px;
+    margin-top: 15px;
+    }
+    
+    .soc-resp .nav-tabs{
+            border-bottom: none;
+    }
+    
+    .navbar-toggle {
+        float: left;
+    }
+    
+    .nav.navbar-nav{
+        float: left;
+    }
+    
+    .whatWeDoCarouselInner{
+/*        color: red;*/
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .newsCarouselInner{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
 
 }
 
