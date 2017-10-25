@@ -169,7 +169,7 @@ nav .container-fluid{
     padding-bottom: 30px;
     padding-left: 70px;
     padding-right: 70px;*/
-    padding: 30px 70px 30px 70px;
+    padding: 30px 70px 50px 70px;
 }
 
 .wh-re.container-fluid{
@@ -194,6 +194,11 @@ nav .container-fluid{
     padding-top: 10px;
 }
 
+#whoWeAreButton{
+    border-radius: 0px;
+    border-color: #2c6cb7;
+}
+
 
 
 .separator{
@@ -204,11 +209,11 @@ nav .container-fluid{
 
 /* ////////////WHAT WE DO SECTION///////////////// */
 
-.what-we-do{
+/*.what-we-do{
     background-color: #bcd5e6;
     color: #1b4a67;    
-/*    padding-top: 30px;
-    padding-bottom: 30px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding: 30px 70px 30px 70px;
 }
 
@@ -256,7 +261,7 @@ nav .container-fluid{
 
 .logo-wh-do img{
     width: 100%;
-/*    padding-left: 140px;*/
+    padding-left: 140px;
 }
 
 .wh-do p{
@@ -279,7 +284,7 @@ nav .container-fluid{
     display:none;
 }
 
-/* carousel what-we-d- devices */
+ carousel what-we-d- devices 
 .right-control2{
     right: 0;
     left: auto;
@@ -305,12 +310,18 @@ nav .container-fluid{
 .left-control2 img{
     padding-left: 5px;
 }
-
+*/
 
 /* ////////////END WHAT WE DO SECTION///////////////// */
 
-#myCarousel3{
+/*#myCarousel3{
     display:none;
+}*/
+
+.news .item{
+/*    float: left;
+    display: block;*/
+    width: 100%;
 }
 
 .contact-us{
@@ -319,8 +330,30 @@ nav .container-fluid{
     
 }
 
-.thumbnail{
+.item .thumbnail{
+    width: 30%;
+    float: left;
+    display: inline-block;
     border-radius: 0px;
+    margin: 0 10px 0 10px;
+}
+
+.left-control2 {
+    right: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 112px;
+}
+
+.right-control2 {
+    right: 0;
+    left: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 112px;
 }
 
 .news{
@@ -333,6 +366,19 @@ nav .container-fluid{
     padding-bottom: 40px;
 }
 
+.news .thumbnail h3{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.news .thumbnail p{
+    font-size: 12px;
+}
+
+.carousel3inner{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 
 .img-log{
@@ -351,6 +397,9 @@ nav .container-fluid{
 .separator #log-circles img{
     width: 100%;
 }
+
+
+/* ////////////CONTACT US SECTION//////////////// */
 
 .contact-us{
     padding: 30px 70px 30px 70px; 
@@ -406,31 +455,16 @@ nav .container-fluid{
    padding-right: 10px;
 }
 
+.contact-us hr{
+  border-top: 1px solid #565151;
+}
+
 .footText{
+    color: grey;
     padding: 50px 0px 50px 0px;
     float: left;
     display: block;
 }
-
-
-/*
-.contact-us h2{
-    text-align: center;
-}
-
-.contact-content h5{
-    margin-bottom: 0px;
-    padding-right: 5px;
-}
-
-.contact-content p{
-    
-    padding-left: 30px;
-}
-.contit{
-    padding-left: 30px;
-}*/
-
 
  body > div {
     padding-left: 0px;
