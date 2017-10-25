@@ -8,7 +8,7 @@
 }
 
 p{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 /*
@@ -55,12 +55,14 @@ h2, h3{
 }
 
 .nav>li>a{
-    margin-top: 40px;
+    margin-top: 56px;
+/*    margin-top: 40px;*/
     padding: 7px 7px;
     color: #504944;
 }
 
 #logoNavBar{
+   padding-top: 20px;
    padding-right: 45px;
    width: 100%;
 }
@@ -90,6 +92,14 @@ nav .container-fluid{
     padding-right: 0px;
 }
 
+.navbar-toggle {
+    margin-top: 57px;
+    float: left;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
 
 /* END NAVIGATION */
 
@@ -119,7 +129,7 @@ nav .container-fluid{
     position: absolute;
     top: 0;
     bottom: 0;
-    padding-top: 266px;
+    padding-top: 233px;
 }
 
 .right-control img{
@@ -132,7 +142,7 @@ nav .container-fluid{
     position: absolute;
     top: 0;
     bottom: 0;
-    padding-top: 266px;
+    padding-top: 233px;
 }
 
 .left-control img{
