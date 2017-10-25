@@ -314,7 +314,7 @@ nav .container-fluid{
 }
 
 .contact-us{
-    background-image: url("contact-us-background.png");
+    background-image: url("fondo-contact_06.png");
     color: white;
     
 }
@@ -355,7 +355,65 @@ nav .container-fluid{
 .contact-us{
     padding: 30px 70px 30px 70px; 
 }
+.contact-cont{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
 
+.contact-cont, .footContact{
+    width: 100%;
+    float: left;
+    display: block;
+    
+}
+
+.contact-us p, .contact-us img{
+    float: left;
+}
+
+.contact-us img{
+    padding-right: 3px;
+}
+
+.contactColumn1, .contactColumn, .contactColumn2{
+    display: block;
+    padding: 0 10px 0 10px;
+    float: left;
+}
+
+.contactColumn1{
+    width: 23%;
+}
+
+.contactColumn{
+   width: 16%;
+}
+
+.contactColumn2{
+    width: 30%;
+}
+
+.contact-us p{
+    font-size: 11px;
+    margin-bottom: 0px;
+}
+
+.contact-us h2{
+   margin-bottom: 30px;
+}
+
+.contact-us h2 img{
+   padding-right: 10px;
+}
+
+.footText{
+    padding: 50px 0px 50px 0px;
+    float: left;
+    display: block;
+}
+
+
+/*
 .contact-us h2{
     text-align: center;
 }
@@ -371,11 +429,8 @@ nav .container-fluid{
 }
 .contit{
     padding-left: 30px;
-}
+}*/
 
-#contact-img-logo{
-    max-width: 100%;
-}
 
  body > div {
     padding-left: 0px;
