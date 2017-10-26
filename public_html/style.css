@@ -313,6 +313,11 @@ nav .container-fluid{
 
 /* ////////////END WHAT WE DO SECTION///////////////// */
 
+#leaderPic, #log-flag, #log-circles2{
+    max-width: 100%;
+}
+
+
 /*#myCarousel3{
     display:none;
 }*/
