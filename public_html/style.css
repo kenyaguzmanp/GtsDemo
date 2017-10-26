@@ -11,11 +11,10 @@ p{
     font-size: 14px;
 }
 
-/*
+
 #all-content{
-    padding-left: 15%;
-    padding-right: 15%;
-}*/
+    margin-top: 157px;
+}
 
 h2, h3{
     text-transform: uppercase;
