@@ -25,21 +25,39 @@
                 <div class="navig">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <span class="main-logo"><img id="logoNavBar" src="logo.png" alt="logo-1"></span>
-
-                        <div class="soc-resp"> 
-                            <ul class="nav nav-tabs right hidden-sm hidden-md hidden-lg">
-                                <li class="social-net" role="presentation"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li class="social-net" role="presentation"><a href="#"><i class="fa fa-linkedin"></i></a></li>                                             
-                            </ul>
-                        </div>    
+                        <div id="navSec1">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div id="navSec2">
+                            <span class="main-logo"><img id="logoNavBar" src="logo.png" alt="logo-1"></span>
+                        </div>
+                        <div id="navSec3">
+                            <div class="soc-resp"> 
+                                <ul class="nav nav-tabs right hidden-sm hidden-md hidden-lg">
+                                    <li class="social-net" role="presentation"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li class="social-net" role="presentation"><a href="#"><i class="fa fa-linkedin"></i></a></li>                                             
+                                </ul>
+                            </div> 
+                        </div>
+                        <!--                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+                                                <span class="main-logo"><img id="logoNavBar" src="logo.png" alt="logo-1"></span>
+                        
+                                                <div class="soc-resp"> 
+                                                    <ul class="nav nav-tabs right hidden-sm hidden-md hidden-lg">
+                                                        <li class="social-net" role="presentation"><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                                        <li class="social-net" role="presentation"><a href="#"><i class="fa fa-linkedin"></i></a></li>                                             
+                                                    </ul>
+                                                </div>    -->
 
                     </div> 
 
@@ -731,17 +749,40 @@
         <script>
             $(document).ready(function () {
                 console.log("ready!");
-                $(".navBotton").on("click", function() {
+                var windowWidth = $(window).width();
+                $(".navBotton").on("click", function () {
                     console.log("le has dado click a wha we are");
                     var idSelected = $(this).attr("id");
-                    console.log("id selected: "+ idSelected);
+                    console.log("id selected: " + idSelected);
                     var sectionFromId = idSelected.slice(-1);
-                    console.log("seccion a: "+sectionFromId);
+                    console.log("seccion a: " + sectionFromId);
                     $('html,body').animate({
-                        scrollTop: $("#section" + sectionFromId).offset().top-156},
+                        scrollTop: $("#section" + sectionFromId).offset().top - 156},
                             'slow');
-                    
+
                 });
+                
+                addClassToNavBar(windowWidth);
+
+                $(window).resize(function () {
+                    console.log("rezise the window!");
+                    windowWidth = $(window).width();
+                    addClassToNavBar(windowWidth);
+                });
+
+                function addClassToNavBar(windowWidth){
+                    if (windowWidth < 768) {
+                        console.log("window en modo responsive!");
+                        $("#navSec1, #navSec2, #navSec3").addClass("col-xs-4");
+                        var navBarTop = $("#navcon").height();
+                        console.log("alcontenttop " + navBarTop);
+                        $("#all-content").css("margin-top", navBarTop + "px");
+                    }else{
+                        $("#navSec1, #navSec2, #navSec3").removeClass("col-xs-4");
+                    }
+                }
+
+
             });
         </script>
     </body>

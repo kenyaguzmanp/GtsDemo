@@ -55,15 +55,15 @@ h2, h3{
 
 .nav>li>a{
     margin-top: 56px;
-/*    margin-top: 40px;*/
+    /*    margin-top: 40px;*/
     padding: 7px 7px;
     color: #504944;
 }
 
 #logoNavBar{
-   padding-top: 20px;
-   padding-right: 45px;
-   width: 100%;
+    padding-top: 20px;
+    padding-right: 45px;
+    width: 100%;
 }
 
 .main-logo{
@@ -79,6 +79,10 @@ h2, h3{
 .dropdown-menu>li>a{
     color: #504944;
     /*font-size: 12px; */
+}
+
+.soc-resp{
+    float: right;
 }
 
 .social-net i{
@@ -108,9 +112,9 @@ nav .container-fluid{
 
 
 .sections.container-fluid{
-/*    width: 75%;*/
+    /*    width: 75%;*/
     max-width: 941px;
-/*    max-width: 75%;*/
+    /*    max-width: 75%;*/
 } 
 
 
@@ -164,10 +168,10 @@ nav .container-fluid{
 .who-are{
     background-color: white;
     text-align: justify;
-/*    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 70px;
-    padding-right: 70px;*/
+    /*    padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 70px;
+        padding-right: 70px;*/
     padding: 30px 70px 50px 70px;
 }
 
@@ -206,112 +210,7 @@ nav .container-fluid{
 }
 
 
-/* ////////////WHAT WE DO SECTION///////////////// */
 
-/*.what-we-do{
-    background-color: #bcd5e6;
-    color: #1b4a67;    
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding: 30px 70px 30px 70px;
-}
-
-.what-we-do .thumbnail .caption{    
-    color: #1b4a67;
-
-}
-
-.what-we-do h2{
-    margin-top: 0px;
-    margin-bottom: 40px;
-    padding-left: 15px;
-}
-
-
-.wh-do-row{
-    display: inline-block;
-    float: left;
-    max-width: 1040px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-}
-
-
-.wh-do{
-    max-width: 120px;
-}
-
-
-.thing{
-    display: inline-block;
-    float: left;
-    margin-right: 20px;
-}
-
-.wh-do img{
-    width: 100%;
-}
-
-.logo-wh-do{
-    display: block;
-    float: left;
-
-}
-
-.logo-wh-do img{
-    width: 100%;
-    padding-left: 140px;
-}
-
-.wh-do p{
-    border-style: solid;
-    border-color: white;
-    border-width: thin;
-    
-}
-
-.wh-do .caption h3 {
-    font-size: 10px;
-}
-
-.wh-do .caption p {
-    font-size: 8px;
-    padding: 9px;
-}
-
-#myCarousel2{
-    display:none;
-}
-
- carousel what-we-d- devices 
-.right-control2{
-    right: 0;
-    left: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding-top: 100px;
-}
-
-.right-control2 img{
-    padding-right: 5px;
-}
-
-.left-control2{
-    right: auto;
-    left: 0;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    padding-top: 100px;
-}
-
-.left-control2 img{
-    padding-left: 5px;
-}
-*/
-
-/* ////////////END WHAT WE DO SECTION///////////////// */
 
 #leaderPic, #log-flag, #log-circles2{
     max-width: 100%;
@@ -323,15 +222,15 @@ nav .container-fluid{
 }*/
 
 .news .item{
-/*    float: left;
-    display: block;*/
+    /*    float: left;
+        display: block;*/
     width: 100%;
 }
 
 .contact-us{
     background-image: url("fondo-contact_06.png");
     color: white;
-    
+
 }
 
 .item .thumbnail{
@@ -363,7 +262,7 @@ nav .container-fluid{
 .news{
     background-color: white;
     padding: 30px 70px 30px 70px;
-    
+
 }
 
 .news.row h2{
@@ -417,7 +316,7 @@ nav .container-fluid{
     width: 100%;
     float: left;
     display: block;
-    
+
 }
 
 .contact-us p, .contact-us img{
@@ -439,7 +338,7 @@ nav .container-fluid{
 }
 
 .contactColumn{
-   width: 16%;
+    width: 16%;
 }
 
 .contactColumn2{
@@ -452,15 +351,15 @@ nav .container-fluid{
 }
 
 .contact-us h2{
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .contact-us h2 img{
-   padding-right: 10px;
+    padding-right: 10px;
 }
 
 .contact-us hr{
-  border-top: 1px solid #565151;
+    border-top: 1px solid #565151;
 }
 
 .footText{
@@ -470,7 +369,7 @@ nav .container-fluid{
     display: block;
 }
 
- body > div {
+body > div {
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -481,84 +380,33 @@ nav .container-fluid{
 /*   For Mobile 480px */
 /*    ************************************************************************************* */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 986px) {
 
-.navbar-toggle.collapsed{
-        float: left;
-        margin-left: 15px;
+    .nav>li>a {
+        font-size: 1.2vw;
+        margin-top: 50px;
+        padding: 3px 3px;
     }
-    
- .soc-resp .social-net a{
-        padding: 3px
-    } 
-    
-    .navig{
-     padding-left: 15px;
-    padding-right: 15px;
-    }
-    
-    .main-logo img{
-      margin-left: 48%;
-     margin-right: 30%;
-    }
-    
-    .soc-resp{
-     display: inline-block;
-    float: right;
-        margin-right: 15px;
-    margin-top: 15px;
-    }
-    
-    .soc-resp .nav-tabs{
-            border-bottom: none;
-    }
-    
-    .navbar-toggle {
-        float: left;
-    }
-    
-    .nav.navbar-nav{
-        float: left;
-    }
-    
-    .whatWeDoCarouselInner{
-/*        color: red;*/
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .newsCarouselInner{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
 
+}
+
+@media only screen and (max-width: 428px) {
+
+    .contactColumn1, .contactColumn, .contactColumn2 {
+        width: 100%;
+    }
+    #navSec2{
+      padding-right: 0px; 
+     padding-left: 0px; 
+    }
+}
+
+@media only screen and (max-width: 678px) {
+
+    #logoNavBar {
+        padding-right: 0px;
+    }
 
 }
 
 
-
-/* **************************************************************************************/
-/*   For DESKTOP min 1280
-/*    ************************************************************************************* */
-
-/*@media only screen and (min-width: 1200px) {
-.who-are.container-fluid{
-    padding: 50px 100px 50px 100px;
-}
-
-.what-we-do.container-fluid{
-    padding: 50px 60px 50px 100px;
-}
-
-.news.row{
-    padding: 50px 60px 50px 100px;
-}
-
-.contact-us.container-fluid{
-    padding: 50px 300px 50px 300px;
-}
-     
-}*/
