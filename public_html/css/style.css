@@ -108,6 +108,28 @@ nav .container-fluid{
     border-bottom: none;
 }
 
+.navbar-default .navbar-nav>li>a:hover{
+    color: #337ab7;
+    border-bottom-style: solid;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: white;
+}
+
+
+
+.dropdown-menu>li>a:hover{
+    color: #337ab7;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .dropdown-menu>li>a:focus{
+    color: #337ab7;
+    border-bottom-style: solid;
+}
+
 /* END NAVIGATION */
 
 .container-fluid{
@@ -363,7 +385,6 @@ body > div {
     padding-left: 0px;
     padding-right: 0px;
 }
-
 
 
 /* **************************************************************************************/
