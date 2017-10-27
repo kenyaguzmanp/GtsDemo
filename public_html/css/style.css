@@ -56,8 +56,6 @@ h2, h3{
 
 .nav>li>a{
     margin-top: 20px;
-    /*    margin-top: 56px;*/
-    /*    margin-top: 40px;*/
     padding: 7px 7px;
     color: #504944;
 }
@@ -65,7 +63,6 @@ h2, h3{
 #logoNavBar{
     padding-top: 20px;
     padding-right: 45px;
-    /*    width: 100%;*/
     max-width: 117px;
     height: 91px;
 }
@@ -82,7 +79,6 @@ h2, h3{
 
 .dropdown-menu>li>a{
     color: #504944;
-    /*font-size: 12px; */
 }
 
 .soc-resp{
@@ -141,7 +137,6 @@ nav .container-fluid{
 
 .right-control img{
     width: 100%;
-/*    max-width: 40px;*/
     padding-right: 10px;
 }
 
@@ -156,7 +151,6 @@ nav .container-fluid{
 
 .left-control img{
     width: 100%;
-/*    max-width: 40px;*/
     padding-left: 10px;
 }
 
@@ -176,10 +170,6 @@ nav .container-fluid{
 .who-are{
     background-color: white;
     text-align: justify;
-    /*    padding-top: 30px;
-        padding-bottom: 30px;
-        padding-left: 70px;
-        padding-right: 70px;*/
     padding: 30px 70px 50px 70px;
 }
 
@@ -196,6 +186,7 @@ nav .container-fluid{
 }
 
 .wh-re h2{
+    color: #1b4a67;
     margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -225,29 +216,12 @@ nav .container-fluid{
 }
 
 
-/*#myCarousel3{
-    display:none;
-}*/
-
-/*.news .item{
-    float: left;
-    display: block;
-    width: 33%;
-}*/
-
 .contact-us{
     background-image: url('fondo-contact_06.png');
     color: white;
 
 }
 
-/*.item .thumbnail{
-    width: 80%;
-    float: left;
-    display: inline-block;
-    border-radius: 0px;
-    margin: 0 10px 0 10px;
-}*/
 
 .left-control2 {
     right: auto;
@@ -274,6 +248,7 @@ nav .container-fluid{
 }
 
 .news.row h2{
+    color: #1b4a67;
     padding-bottom: 40px;
 }
 
@@ -284,6 +259,7 @@ nav .container-fluid{
 
 .news .thumbnail p{
     font-size: 12px;
+    text-align: justify;
 }
 
 .carousel3inner{
@@ -386,7 +362,7 @@ body > div {
 
 
 /* **************************************************************************************/
-/*   For Mobile 480px */
+/*   RESPONSIVE */
 /*    ************************************************************************************* */
 
 
@@ -431,11 +407,6 @@ body > div {
         padding-right: 0px;
     }
 
-/*    .item .thumbnail{
-        margin-left: 33px;
-        width: 80%;
-        margin-bottom: 10px;
-    }*/
 
     .news, .who-are, .contact-us {
         padding: 10px; 
@@ -477,10 +448,6 @@ body > div {
     padding: 50px 0px 0px 0px;
 
     }
-/*    .item .thumbnail{
-        margin-left: 33px;
-    }
-    */
     
 
 }
